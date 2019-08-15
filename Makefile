@@ -164,6 +164,7 @@ HEADERS_itead_Nextion   += PWM.h
 HEADERS_itead_Nextion   += RCInput_Navio2.h
 HEADERS_itead_Nextion   += RCOutput_Navio2.h
 HEADERS_itead_Nextion   += filtro.h
+HEADERS_itead_Nextion   += MS4525DO.h
 
 HEADERS_itead_Nextion	  := $(addprefix libraries/itead_Nextion/,$(HEADERS_itead_Nextion))
 
