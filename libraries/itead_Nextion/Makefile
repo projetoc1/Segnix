@@ -29,6 +29,7 @@ OBJS += PWM.o
 OBJS += RCInput_Navio2.o
 OBJS += RCOutput_Navio2.o
 OBJS += filtro.o
+OBJS += MS4525DO.o
 
 itead_Nextion.o: $(OBJS)
 	$(SDK_LINKER) -r -o $@ $^
